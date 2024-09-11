@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5e1ef;
+}
+
+.component {
+  height: 499px;
+  width: 320px;
+  display: flex;
+  overflow: hidden;
+  padding: 16px;
+  background: #fff;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+.qr-code {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+  margin-bottom: 24px;
+}
+
+.text {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 0 20px;
+}
+
+.component-title {
+  color: #1f314f;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  font-weight: 700;
+}
+
+.component-description {
+  color: #68778d;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
